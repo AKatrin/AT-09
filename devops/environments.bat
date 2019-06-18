@@ -1,5 +1,5 @@
-@echooff
-set.OS_PRIVATE_KEY_PATH=C:\\keys\\key.pem
+@echo off
+set OS_PRIVATE_KEY_PATH=C:\\keys\\key.pem
 set OS_AUTH_URL=http://10.28.3.240:5000/v3
 set OS_IDENTITY_API_VERSION=3
 set OS_TENANT_NAME=2099bc1dc3ec4c76a9cdbab47ea675a7
