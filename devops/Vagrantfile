@@ -21,7 +21,6 @@ Vagrant.configure('2') do |config|
  
  config.vm.define 'linux-server-1' do |s|
   s.vm.provision "docker"
-  #s.vm.provision "shell",   path: "install_jenkins.sh"
   s.vm.provider :openstack do |os, override|
     os.server_name = "AT09#{ENV['OS_SERVER_NAME']}02"
     os.flavor = ENV['OS_FLAVOR']
